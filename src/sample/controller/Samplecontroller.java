@@ -23,9 +23,10 @@ public class Samplecontroller
 		
 		System.out.println("This is a sample prject to show the github");
 		System.out.println("eclipse process to develop muscle memory");
-	}
+	
 
-		//testScanner();
+		testScanner();
+	}
 
 		
 		
@@ -37,5 +38,8 @@ public class Samplecontroller
 		System.out.println("Please type your favorite place");
 		String answer = firstScanner.nextLine();
 		System.out.println("Oh, you like the place " + answer);
+		System.out.println("How old are you???");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("you said that you are " + ageAnswer +" years old!!!");
 	}
 }

@@ -10,7 +10,7 @@ public class Samplecontroller
 	{
 		PlayDohCircle firstCircle = new PlayDohCircle();
 		PlayDohCircle secondCircle = new PlayDohCircle();
-		//secondCircle = new PlayDohCircle();
+		secondCircle = new PlayDohCircle();
 				
 		PlayDohCircle thirdCircle= new PlayDohCircle(10);
 		

@@ -21,8 +21,8 @@ public class Samplecontroller
 		System.out.println(firstCircle);
 		System.out.println("Here is my second circle " + secondCircle);
 		
-		System.out.println("This is a sample prject to show the github");
-		System.out.println("eclipse process to develop muscle memory");
+		//System.out.println("This is a sample prject to show the github");
+		//System.out.println("eclipse process to develop muscle memory");
 	
 
 		testScanner();
@@ -41,5 +41,16 @@ public class Samplecontroller
 		System.out.println("How old are you???");
 		int ageAnswer = firstScanner.nextInt();
 		System.out.println("you said that you are " + ageAnswer +" years old!!!");
+		
+		PlayDohCircle changeCircle = new PlayDohCircle();
+		System.out.println("Here is the circle before I change it");
+		System.out.println(changeCircle);
+		System.out.println("Type in a new size - please use numbers");
+		int mySize = firstScanner.nextInt();
+		changeCircle.setSize(mySize);
+		System.out.println("Now look at the circle");
+		System.out.println(changeCircle);
+		
+		
 	}
 }
